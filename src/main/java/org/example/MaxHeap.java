@@ -123,20 +123,6 @@ public class MaxHeap {
         System.out.println(heap);
     }
 
-    // Main method to test the MaxHeap implementation
-    public static void main(String[] args) {
-        MaxHeap maxHeap = new MaxHeap();
 
-        int[] array = {3, 5, 9, 6, 8, 20, 10, 12, 18, 9};
 
-        maxHeap.buildHeap(array);
-        System.out.println("Heap after building:");
-        maxHeap.printHeap();
-
-        for(int i=0;i<2;i++)
-        {
-            maxHeap.extractMax();
-        }
-        System.out.println("Kth largest: "+maxHeap.maximum());
-    }
 }
